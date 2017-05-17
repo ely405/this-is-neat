@@ -51,6 +51,9 @@ body{
 .l-height{
   line-height: 2.4rem;
 }
+.p-top{
+  padding-top: 5rem;
+}
 
 .hero-header{
   color: white;
@@ -93,7 +96,7 @@ body{
   height: 17.5rem;
 }
 .contain-circle{
-  width: 62.676%;
+  width: 22.5rem;
   height: 22.5rem;
   border-radius: 50%;
 }
