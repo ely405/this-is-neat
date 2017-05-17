@@ -1,0 +1,68 @@
+@font-face {
+  font-family: "proxima-nova-soft";
+  font-style: normal;
+  src: url("../fonts/ProximaNovaSoft-Regular.otf");
+}
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: "proxima-nova-soft";
+  color: white;
+}
+.m-auto{
+  margin: auto;
+}
+.br-50{
+  border-radius: 5rem;
+}
+.pd-10-50{
+  padding: 1rem 5rem;
+}
+.bgpos-rg-btm{
+  background-position: right bottom;
+}
+.p-rel{
+  position: relative;
+}
+.ov-hid{
+  overflow: hidden;
+}
+
+.hero-header{
+  height: 100vh;
+  max-height: 650px;
+  display: flex;
+  align-items: center;
+}
+.icon{
+  position: absolute;
+  background-position: center center;
+  background-size: cover;
+}
+.icon--hero, .icon--hero-bg{
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+.icon--hero-bg{
+  height: 90%;
+}
+.icon--hero-park{
+  height: 31.6rem;
+  width: 26rem;
+  left: -22%;
+}
+.icon--hero-bench{
+  left: 95%;
+  width: 14.8rem;
+  height: 6.6rem;
+}
+.hero-header .icon--hero-park, .hero-header .icon--hero-bench{
+  transform: scale(0.7) translateX(-50%);
+  bottom: 1.9rem;
+}
+.logo-size{
+  width: 36.365%;
+}
