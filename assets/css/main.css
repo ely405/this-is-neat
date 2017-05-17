@@ -8,7 +8,7 @@
 }
 body{
   font-family: "proxima-nova-soft";
-  color: white;
+  color: #494949;
 }
 .m-auto{
   margin: auto;
@@ -22,22 +22,42 @@ body{
 .bgpos-rg-btm{
   background-position: right bottom;
 }
+.bgpos-ce-ce{
+    background-position: center center;
+}
 .p-rel{
   position: relative;
+}
+.p-abs{
+  position: absolute;
 }
 .ov-hid{
   overflow: hidden;
 }
-
-.hero-header{
-  height: 100vh;
-  max-height: 650px;
+.bg-yellow{
+  background-color: #FFCC66
+}
+.cent-itm{
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+.c-blue{
+  color: #3498DB;
+}
+.fw-600{
+  font-weight: 600;
+}
+.l-height{
+  line-height: 2.4rem;
+}
+
+.hero-header{
+  color: white;
+  height: 100vh;
+  max-height: 650px;
 }
 .icon{
-  position: absolute;
-  background-position: center center;
   background-size: cover;
 }
 .icon--hero, .icon--hero-bg{
@@ -65,4 +85,15 @@ body{
 }
 .logo-size{
   width: 36.365%;
+}
+
+/*section works*/
+.icon--step-bond-guarantee{
+  width: 17.5rem;
+  height: 17.5rem;
+}
+.contain-circle{
+  width: 62.676%;
+  height: 22.5rem;
+  border-radius: 50%;
 }
