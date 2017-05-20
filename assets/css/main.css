@@ -31,19 +31,16 @@ body{
 .p-abs{
   position: absolute;
 }
-.ov-hid{
-  overflow: hidden;
-}
 .bg-yellow{
   background-color: #FFCC66
+}
+.c-white{
+  color: white;
 }
 .cent-itm{
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.c-blue{
-  color: #3498DB;
 }
 .fw-600{
   font-weight: 600;
@@ -54,10 +51,14 @@ body{
 .p-top{
   padding-top: 5rem;
 }
-
+.top-40{
+  top: 4rem
+}
+.left-120{
+  left: 12rem;
+}
 .hero-header{
-  color: white;
-  height: 100vh;
+  height: 48rem;
   max-height: 650px;
 }
 .icon{
@@ -86,8 +87,14 @@ body{
   transform: scale(0.7) translateX(-50%);
   bottom: 1.9rem;
 }
-.logo-size{
-  width: 36.365%;
+.logo-size-xs{
+  width: 12rem;
+}
+.logo-size-sm{
+  width: 9rem;
+}
+.he-35{
+  height: 3.5rem;
 }
 
 /*section works*/
@@ -99,4 +106,27 @@ body{
   width: 22.5rem;
   height: 22.5rem;
   border-radius: 50%;
+}
+
+@media (min-width: 768px){
+  .logo-size{
+    width: 9rem;
+  }
+  .hero-header{
+    height: 100vh;
+  }
+  .icon--hero-bench {
+    left: 80%;
+  }
+  .icon--hero-park{
+    left: -9.5%;
+  }
+  .hero-header .icon--hero-bench, .hero-header .icon--hero-park{
+    transform: scale(1);
+  }
+}
+@media (min-width: 992px){
+  .icon--hero-park{
+    left: 10%;
+  }
 }
