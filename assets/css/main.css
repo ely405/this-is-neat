@@ -19,6 +19,9 @@ body{
 .pd-10-50{
   padding: 1rem 5rem;
 }
+.p-top{
+  padding-top: 5rem;
+}
 .bgpos-rg-btm{
   background-position: right bottom;
 }
@@ -51,11 +54,8 @@ body{
 .font-s-64{
   font-size: 6.4rem;
 }
-.l-height{
+.l-height-24{
   line-height: 2.4rem;
-}
-.p-top{
-  padding-top: 5rem;
 }
 .top-40{
   top: 4rem
@@ -113,7 +113,21 @@ body{
   height: 22.5rem;
   border-radius: 50%;
 }
-
+/*section our promise*/
+.fnts-promise{
+  font-size: 4.8rem;
+}
+.ic-cont-feature{
+  height: 8rem;
+}
+.icon--feature-support, .icon--feature-professional, .icon--feature-insurance, .icon--feature-flexibility, .icon--feature-transparency, .icon--feature-eco{
+  width: 5rem;
+  height: 5rem;
+}
+.icon--arrow-down{
+  width: 3rem;
+  height: 3rem;
+}
 @media (min-width: 768px){
   .logo-size{
     width: 9rem;
@@ -136,7 +150,7 @@ body{
   h5{
     font-size: 1.8rem;
   }
-  .l-height{
+  .l-height-36{
     line-height: 3.6rem;
   }
   .fl-dir-row{
@@ -144,6 +158,23 @@ body{
   }
   .text-sm{
     text-align: left;
+  }
+  /*section our promise*/
+  .fnts-promise{
+    font-size: 6.4rem;
+  }
+  .font-h4{
+    font-size: 2.4rem;
+  }
+  .icon--feature-support, .icon--feature-professional, .icon--feature-insurance, .icon--feature-flexibility, .icon--feature-transparency, .icon--feature-eco{
+    width: 8rem;
+    height: 8rem;
+  }
+  .fl-dir-col-sm{
+    flex-direction: column;
+  }
+  .text-center-sm{
+    text-align: center;
   }
 }
 @media (min-width: 992px){
