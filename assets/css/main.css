@@ -31,19 +31,25 @@ body{
 .p-abs{
   position: absolute;
 }
-.bg-yellow{
-  background-color: #FFCC66
-}
 .c-white{
   color: white;
+}
+.bg-gray{
+  background-color: #F9F9F9;
 }
 .cent-itm{
   display: flex;
   align-items: center;
   justify-content: center;
 }
+.fl-dir-col{
+  flex-direction: column;
+}
 .fw-600{
   font-weight: 600;
+}
+.font-s-64{
+  font-size: 6.4rem;
 }
 .l-height{
   line-height: 2.4rem;
@@ -98,7 +104,7 @@ body{
 }
 
 /*section works*/
-.icon--step-bond-guarantee{
+.icon--step-bond-guarantee, .icon--step-quote, .icon--step-payment{
   width: 17.5rem;
   height: 17.5rem;
 }
@@ -124,9 +130,28 @@ body{
   .hero-header .icon--hero-bench, .hero-header .icon--hero-park{
     transform: scale(1);
   }
+  .font-s-48{
+    font-size: 4.8rem;
+  }
+  h5{
+    font-size: 1.8rem;
+  }
+  .l-height{
+    line-height: 3.6rem;
+  }
+  .fl-dir-row{
+    flex-direction: row;
+  }
+  .text-sm{
+    text-align: left;
+  }
 }
 @media (min-width: 992px){
   .icon--hero-park{
     left: 10%;
+  }
+  .contain-circle{
+    width: 27.5rem;
+    height: 27.5rem;
   }
 }
