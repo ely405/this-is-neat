@@ -40,6 +40,9 @@ body{
 .bg-gray{
   background-color: #F9F9F9;
 }
+.bg-light-blue{
+  background-color: #75B9E7;
+}
 .cent-itm{
   display: flex;
   align-items: center;
@@ -120,12 +123,31 @@ body{
 .ic-cont-feature{
   height: 8rem;
 }
-.icon--feature-support, .icon--feature-professional, .icon--feature-insurance, .icon--feature-flexibility, .icon--feature-transparency, .icon--feature-eco{
+.icon--feature-supsitionrt, .icon--feature-professional, .icon--feature-insurance, .icon--feature-flexibility, .icon--feature-transparency, .icon--feature-eco{
   width: 5rem;
   height: 5rem;
 }
 .icon--arrow-down{
   width: 3rem;
+  height: 3rem;
+}
+/*Our Commnunity*/
+.avatar-community{
+  background: url("../img/sprite/testimonials.jpg");
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+}
+#jessica{
+  background-position: center top;
+}
+#mesker{
+  background-position: center bottom;
+}
+#renee{
+  background-position: center 50%;
+}
+.star-container{
   height: 3rem;
 }
 @media (min-width: 768px){
@@ -175,6 +197,19 @@ body{
   }
   .text-center-sm{
     text-align: center;
+  }
+  /*Section Our Commnity*/
+  .text-left-sm{
+    text-align: left;
+  }
+  .flex-start-sm{
+    justify-content: flex-start;
+  }
+  .font-size-24-sm{
+    font-size: 2.4rem;
+  }
+  .l-height-28-sm{
+    line-height: 2.8rem;
   }
 }
 @media (min-width: 992px){
