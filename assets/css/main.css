@@ -136,7 +136,6 @@ body{
   background: url("../img/sprite/testimonials.jpg");
   width: 10rem;
   height: 10rem;
-  border-radius: 50%;
 }
 #jessica{
   background-position: center top;
@@ -149,6 +148,13 @@ body{
 }
 .star-container{
   height: 3rem;
+}
+/*section cleaning*/
+.tranX--100-rotZ-5{
+  transform: translateX(15%) rotateZ(-5deg);
+}
+.image, .image-bg{
+  width: 44%;
 }
 @media (min-width: 768px){
   .logo-size{
