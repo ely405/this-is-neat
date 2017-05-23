@@ -143,6 +143,9 @@ body{
   height: 3rem;
 }
 /*Our Commnunity*/
+#our-community{
+  padding: 7.5rem 0 20rem;
+}
 .avatar-community{
   background: url("../img/sprite/testimonials.jpg");
   width: 10rem;
@@ -160,12 +163,31 @@ body{
 .icon-container{
   height: 5rem;
 }
-/*section cleaning checklist*/
-.tranX--100-rotZ-5{
-  transform: translateX(15%) rotateZ(-5deg);
+/*section cleaning photos*/
+#cleaning{
+  padding: 20rem 0 5rem;
+}
+.tranX-5-tranY-110-rotZ--5{
+  transform: translateX(5%) translateY(11rem) rotateZ(-5deg);
+}
+}
+.rotZ-5{
+  -webkit-transform: rotateZ(5deg);
+  -ms-transform: rotate(5deg);
+  transform: rotateZ(5deg);
+}
+.tranX--160-tranY--5-rotZ-10{
+  transform: translateX(16rem) translateY(11rem) rotateZ(10deg);
 }
 .image, .image-bg{
   width: 44%;
+  position: absolute;
+top: -350px;
+height: auto;
+z-index: 100;
+outline: 1px solid transparent;
+-webkit-backface-visibility: hidden;
+backface-visibility: hidden;
 }
 /*checklist*/
 .checklist{
